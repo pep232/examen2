@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+ <question id='question001'>
+  <type>select</type>
+  <title>¿Que símbolo nos indica que la página es segura?</title>
+  <option>Un candado en verde.</option>
+  <option>Un candado en rojo.</option> 
+  <option>Una cruz en azul.</option>
+  <option>Ninguna de las anteriores.</option>
+  <answer>Un candado en verde.</answer>
+ </question>
+ <question id='question002'>
+  <type>text</type>
+  <title>Adivina el número oculto.(Es un número del 1 al 10).</title>
+  <answerid="a2">5</answer>
+ </question>
+ <question id='question003'>
+  <type>checkbox</type>
+  <title>Indica cual de las siguientes etiquetas, no es valida en HTML.</title>
+  <option><h1></h1></option>
+  <option><p></p></option> 
+  <option><ol></ul></option>
+  <answer id="a3">3</answer>
+ </question>
+ <question id='question004'>
+  <type>multiple</type>
+  <title>Marca los números pares?</title>
+  <option>1</option>
+  <option>2</option> 
+  <option>3</option> 
+  <option>4</option>
+  <answer id="am2">2</answer>
+  <answer id="am4">4</answer>
+ </question>
+ <question id='question005'>
+ <type>button</type>
+  <title>¿Cuantos días tiene un año?</title>
+ </question>
+ <question id='question006'>
+ <type>label</type>
+  <title>¿Que sistema operativo tiene como logo una manzana?</title>
+ </question>
+ <question id='question007'><type>text</type>
+  <title>¿Cual es la capital de España?</title>
+ </question>
+ <question id='question008'>
+ <type>text</type>
+  <title>¿Cual es el nombre completo del formato CSS?</title>
+ </question>
+ <question id='question009'>
+ <type></type>
+ <title>¿Cunatos días tiene el mes de Enero?</title>
+ 
+ </question>
+ <question id='question010'>
+ <type>multiple</type>
+  <title>Marca los números pares?</title>
+ </question>
+</questions>
