@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title> Cuestionario</title>
+<script src='JV.js'></script>
+</head>
+
+<body>
+<form action="corregir.php?lang=es" method="post">
+<div class="Preguntas">
+<h3>Pregunta 1</h3>
+<h4 id="p1">¿Que símbolo nos indica que la página es segura? </h4>
+<br><input onclick="Engine(1, this.value)" type="radio" value="a" />
+Un candado en verde.</br>
+<br><input onclick="Engine(1, this.value)" type="radio" value="b" />
+Un candado en rojo.</br>
+<br><input onclick="Engine(1, this.value)" type="radio" value="c" />
+Una cruz en azul.</br>
+<br><input onclick="Engine(1, this.value)" type="radio" value="d" />
+Ninguna de las anteriores.</br>
+</div>
+<div>
+<h3> Pregunta 2</h3>
+<h4>Adivina el número oculto.(Es un número del 1 al 10).</h4>
+ <input type="text" name="número" value="" />
+</div>
+<div>
+<h3> Pregunta 3</h3>
+<h4> Indica cual de las siguientes etiquetas,son válidas en HTML.</h4>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="a"/>
+("h1" "/h1")</br>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="b"/>
+("p" "/p")</br>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="c"/>
+("ol" "/ul")</br>
+</div>
+<div>
+<h3> Pregunta 4</h3>
+<h4>Marca los números pares. </h4>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="a"/>
+1</br>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="b"/>
+2</br>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="c"/>
+3</br>
+<br><input onclick="Engine(2, this.value)"type="checkbox" value="d"/>
+4</br>
+</div>
+<div>
+<h3> Pregunta 5</h3>
+<h4> ¿Cuantos días tiene un año?</h4>
+<input type="button" name="365" value="365" />
+<input type="button" name="366" value="366" />
+</div>
+<div>
+<h3> Pregunta 6</h3>
+<h4> ¿Que sistema operativo tiene como logo una manzana?</h4>
+<label for="so">Sistema operativo</label> <br/>
+<select id="so" name="so">
+  <option value="" selected="selected">- selecciona -</option>
+  <option value="windows">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+</select>
+</div>
+<div>
+<h3> Pregunta 7</h3>
+<h4> ¿Cual es la capital de España?</h4>
+<input type="text" name="texto" value="" />
+</div>
+<div>
+<h3> Pregunta 8</h3>
+<h4> ¿Cual es el nombre completo del formato CSS?</h4>
+<br><input onclick="Engine(1, this.value)" type="radio" value="a" />
+Cascade Stylesheets.</br>
+<br><input onclick="Engine(1, this.value)" type="radio" value="b" />
+Cascading Stylesheets.</br>
+<br><input onclick="Engine(1, this.value)" type="radio" value="c" />
+Cascading Style sheets.</br>
+</div>
+<div>
+<h3> Pregunta 9</h3>
+<h4> ¿Cunatos días tiene el mes de Enero?</h4>
+<input type="text" name="número" value="" />
+</div>
+<div>
+<h3> Pregunta 10</h3>
+<h4> </h4>
+</div>
+<div id="foot">
+<input type="submit" value="Corregir examen" />
+</div>
+</form>
+</body>
+
+</html>
